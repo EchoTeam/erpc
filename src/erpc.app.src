@@ -1,0 +1,8 @@
+{application, erpc,
+ [
+  {description, "RPC layer transparently passing exceptions raised on the remote nodes"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+ ]}.
